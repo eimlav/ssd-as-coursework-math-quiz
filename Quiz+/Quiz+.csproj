@@ -1,0 +1,171 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="12.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{C341A4D3-67A7-43B4-85EC-15DE8A5911C3}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Quiz_</RootNamespace>
+    <AssemblyName>Quiz+</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Edit_Profile.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Edit_Profile.Designer.cs">
+      <DependentUpon>Edit_Profile.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Game_Finished.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Game_Finished.Designer.cs">
+      <DependentUpon>Game_Finished.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Player_Stats.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Player_Stats.Designer.cs">
+      <DependentUpon>Player_Stats.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Profile.cs" />
+    <Compile Include="Question.cs" />
+    <Compile Include="Question_1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_1.Designer.cs">
+      <DependentUpon>Question_1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question_2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_2.Designer.cs">
+      <DependentUpon>Question_2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question_3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_3.Designer.cs">
+      <DependentUpon>Question_3.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question_4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_4.Designer.cs">
+      <DependentUpon>Question_4.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Question_5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Question_5.Designer.cs">
+      <DependentUpon>Question_5.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Start_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Start_Menu.Designer.cs">
+      <DependentUpon>Start_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Main_Menu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Main_Menu.Designer.cs">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Edit_Profile.resx">
+      <DependentUpon>Edit_Profile.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Game_Finished.resx">
+      <DependentUpon>Game_Finished.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Player_Stats.resx">
+      <DependentUpon>Player_Stats.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_1.resx">
+      <DependentUpon>Question_1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_2.resx">
+      <DependentUpon>Question_2.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_3.resx">
+      <DependentUpon>Question_3.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_4.resx">
+      <DependentUpon>Question_4.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Question_5.resx">
+      <DependentUpon>Question_5.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Start_Menu.resx">
+      <DependentUpon>Start_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Main_Menu.resx">
+      <DependentUpon>Main_Menu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
