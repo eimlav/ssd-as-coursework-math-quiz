@@ -3,14 +3,14 @@
            Coursework
         Mathematics Quiz
               Quiz+
-	     Eimhin Laverty
+		 Eimhin Laverty
 = = = = = = = = = = = = = = = = =
 
 = = = = = = = = = =
  I M P O R T A N T
 = = = = = = = = = =
 This is a Visual Studio Project so please use this to run the application.
-I have also included the documentation file as well as a pdf.
+I have also included the documentation file as a pdf.
 
 = = = = = = = = = = = = =
   About the coursework
